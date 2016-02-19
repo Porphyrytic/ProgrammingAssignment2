@@ -2,8 +2,8 @@
 ## functions do:
 ##
 ## These functions compute, store and return the inverse of a supplied matrix.
-## The functions attempt to reduce costly inversions by re-using solutions that have  
-## already been computed.
+## The functions attempt to reduce the processing cost of inversion by re-using solutions
+## that have already been computed.
 ##
 ## Write a short comment describing this function:
 ##
