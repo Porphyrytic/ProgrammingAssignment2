@@ -1,12 +1,14 @@
 ## Put comments here that give an overall description of what your
 ## functions do:
 ##
-## These functions compute and store the inverse of a supplied matrix.
-
+## These functions compute, store and return the inverse of a supplied matrix.
+## The functions attempt to reduce costly inversions by re-using solutions that have  
+## already been computed.
+##
 ## Write a short comment describing this function:
-
-## This function generates a cache and family of four sub-functions which can be manipulated
-## or Operated directly by the user and the cacheSolve function 
+##
+## This function generates a cache and family of four sub-functions which can be
+## operated either directly by the user or the cacheSolve function automatically
 ## --------------------------------------------------------
 ## Inputs: It requires a square (N x N), non-singular matrix as an input.
 ## Syntax and Usage: makeCacheMatrix(M1) where M1 is a square, non-singular matrix.
