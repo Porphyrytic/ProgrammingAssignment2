@@ -57,7 +57,7 @@ cacheSolve <- function(x, ...) {
         
         matrix_inv <- x$get_inv()
         if(!is.null(matrix_inv)){
-                message("Getting cached inverse data")
+                message("Using cached inverse data")
                 return(matrix_inv)
         }
         
@@ -68,5 +68,6 @@ cacheSolve <- function(x, ...) {
         
         ## Pass Inversion Solution back to Cache. Return Solution to Console.
         x$set_inv(matrix_inv)
+        message("Computed inverse data")
         matrix_inv
 }
